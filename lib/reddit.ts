@@ -25,11 +25,15 @@ const NOISE_SUBS = new Set([
 
 async function redditFetch(url: string): Promise<unknown> {
   const res = await fetch(url, {
-    headers: { "User-Agent": UA },
-    next: { revalidate: 3600 },
+    headers: {
+      "User-Agent": UA,
+      "Accept": "application/json",
+    },
+    cache: "no-store",
   });
   if (!res.ok) {
-    throw new Error(`Reddit fetch failed: ${res.status} ${url}`);
+    const body = await res.text().catch(() => "");
+    throw new Error(`Reddit ${res.status} for ${url}: ${body.slice(0, 200)}`);
   }
   return res.json();
 }
@@ -53,7 +57,8 @@ export async function getSubredditInfo(sub: string): Promise<SubredditInfo | nul
       memberCount: d?.subscribers ? formatNumber(d.subscribers) : "unknown",
       description: (d?.public_description || d?.title || "").slice(0, 200),
     };
-  } catch {
+  } catch (e) {
+    console.error(`getSubredditInfo(${sub}):`, e);
     return null;
   }
 }
@@ -68,7 +73,8 @@ export async function getTopPostAuthors(sub: string, limit = 25): Promise<string
       .map((c) => c.data.author)
       .filter((a) => a && a !== "[deleted]" && a !== "AutoModerator");
     return Array.from(new Set(authors)).slice(0, 12);
-  } catch {
+  } catch (e) {
+    console.error(`getTopPostAuthors(${sub}):`, e);
     return [];
   }
 }
@@ -90,7 +96,8 @@ export async function getUserSubreddits(username: string, limit = 50): Promise<s
       .sort((a, b) => b[1] - a[1])
       .map(([s]) => s)
       .slice(0, 20);
-  } catch {
+  } catch (e) {
+    console.error(`getUserSubreddits(${username}):`, e);
     return [];
   }
 }
