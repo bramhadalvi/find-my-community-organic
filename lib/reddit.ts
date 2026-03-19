@@ -25,15 +25,11 @@ const NOISE_SUBS = new Set([
 
 async function redditFetch(url: string): Promise<unknown> {
   const res = await fetch(url, {
-    headers: {
-      "User-Agent": UA,
-      "Accept": "application/json",
-    },
-    cache: "no-store",
+    headers: { "User-Agent": UA },
+    next: { revalidate: 3600 },
   });
   if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`Reddit ${res.status} for ${url}: ${body.slice(0, 200)}`);
+    throw new Error(`Reddit fetch failed: ${res.status} ${url}`);
   }
   return res.json();
 }
