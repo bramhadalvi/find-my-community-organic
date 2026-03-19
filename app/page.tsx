@@ -6,6 +6,7 @@ import Step3ArtStyle from "@/components/survey/Step3ArtStyle";
 import SimilarGames from "@/components/results/SimilarGames";
 import AudienceMap from "@/components/results/AudienceMap";
 import { findSimilarGames } from "@/lib/gameMatcher";
+import { fetchSubredditAudience } from "@/lib/redditClient";
 
 export type GameData = {
   // Step 1
@@ -85,14 +86,22 @@ export default function Home() {
     setFindingAudience(true);
     setError(null);
     try {
+      // Step 1: get subreddit list from server (game matching only)
       const res = await fetch("/api/find-audience", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ similarGames, gameData }),
+        body: JSON.stringify({ similarGames }),
       });
       if (!res.ok) throw new Error(await res.text());
-      const data = await res.json();
-      setAudienceData(data.insights);
+      const { subreddits } = await res.json() as { subreddits: string[] };
+
+      // Step 2: fetch Reddit data from the browser to avoid server IP blocks
+      const insights: AudienceInsight[] = [];
+      for (const sub of subreddits) {
+        const insight = await fetchSubredditAudience(sub, subreddits);
+        insights.push(insight);
+        setAudienceData([...insights]); // show results as they arrive
+      }
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : "Audience search failed");
     } finally {
