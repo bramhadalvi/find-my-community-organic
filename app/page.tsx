@@ -5,6 +5,7 @@ import Step2Genre from "@/components/survey/Step2Genre";
 import Step3ArtStyle from "@/components/survey/Step3ArtStyle";
 import SimilarGames from "@/components/results/SimilarGames";
 import AudienceMap from "@/components/results/AudienceMap";
+import { findSimilarGames } from "@/lib/gameMatcher";
 
 export type GameData = {
   // Step 1
@@ -62,18 +63,16 @@ export default function Home() {
   const updateGameData = (patch: Partial<GameData>) =>
     setGameData((prev) => ({ ...prev, ...patch }));
 
-  const handleAnalyze = async () => {
+  const handleAnalyze = () => {
     setAnalyzing(true);
     setError(null);
     try {
-      const res = await fetch("/api/match-games", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(gameData),
+      const results = findSimilarGames({
+        genres: gameData.genres,
+        perspective: gameData.perspective,
+        visualStyle: gameData.visualStyle,
       });
-      if (!res.ok) throw new Error(await res.text());
-      const data = await res.json();
-      setSimilarGames(data.similarGames);
+      setSimilarGames(results);
       setStep(3);
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : "Analysis failed");
