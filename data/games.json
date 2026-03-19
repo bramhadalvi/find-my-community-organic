@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Hollow Knight",
+    "genres": ["metroidvania", "action", "platformer"],
+    "perspective": "2d-side",
+    "visualStyle": "hand-drawn",
+    "tags": ["atmospheric", "challenging", "exploration", "dark-fantasy", "precision-combat", "lore-rich", "underground", "boss-fights"],
+    "subreddit": "HollowKnight",
+    "steamUrl": "https://store.steampowered.com/app/367520/"
+  },
+  {
+    "name": "Celeste",
+    "genres": ["platformer", "action"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["precision-platforming", "challenging", "narrative", "mental-health", "cozy", "speedrun-friendly", "story-driven"],
+    "subreddit": "celestegame",
+    "steamUrl": "https://store.steampowered.com/app/504230/"
+  },
+  {
+    "name": "Stardew Valley",
+    "genres": ["simulation", "rpg"],
+    "perspective": "2d-top",
+    "visualStyle": "pixel",
+    "tags": ["cozy", "farming", "relaxing", "social-sim", "crafting", "seasonal", "life-sim", "open-ended"],
+    "subreddit": "StardewValley",
+    "steamUrl": "https://store.steampowered.com/app/413150/"
+  },
+  {
+    "name": "Dead Cells",
+    "genres": ["roguelike", "action", "metroidvania"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["fast-paced", "challenging", "build-variety", "replayable", "combat-focused", "permadeath", "unlockables"],
+    "subreddit": "deadcells",
+    "steamUrl": "https://store.steampowered.com/app/588650/"
+  },
+  {
+    "name": "Hades",
+    "genres": ["roguelike", "action", "rpg"],
+    "perspective": "isometric",
+    "visualStyle": "hand-drawn",
+    "tags": ["narrative", "replayable", "fast-paced", "relationship-building", "mythology", "voice-acted", "build-variety", "permadeath"],
+    "subreddit": "HadesTheGame",
+    "steamUrl": "https://store.steampowered.com/app/1145360/"
+  },
+  {
+    "name": "Spelunky 2",
+    "genres": ["roguelike", "platformer", "action"],
+    "perspective": "2d-side",
+    "visualStyle": "cartoon",
+    "tags": ["challenging", "permadeath", "exploration", "physics-based", "secrets", "multiplayer-co-op", "replayable"],
+    "subreddit": "spelunky",
+    "steamUrl": "https://store.steampowered.com/app/418530/"
+  },
+  {
+    "name": "Into The Breach",
+    "genres": ["strategy", "roguelike"],
+    "perspective": "isometric",
+    "visualStyle": "pixel",
+    "tags": ["turn-based", "puzzle-like", "minimal", "replayable", "sci-fi", "mechs", "short-runs"],
+    "subreddit": "Intothebreach",
+    "steamUrl": "https://store.steampowered.com/app/590380/"
+  },
+  {
+    "name": "Disco Elysium",
+    "genres": ["rpg", "adventure", "narrative"],
+    "perspective": "isometric",
+    "visualStyle": "hand-drawn",
+    "tags": ["narrative", "dialogue-heavy", "mature-themes", "detective", "political", "dark-humor", "character-build", "open-world"],
+    "subreddit": "DiscoElysium",
+    "steamUrl": "https://store.steampowered.com/app/632470/"
+  },
+  {
+    "name": "Undertale",
+    "genres": ["rpg", "adventure", "narrative"],
+    "perspective": "2d-top",
+    "visualStyle": "pixel",
+    "tags": ["narrative", "pacifist", "humor", "emotional", "meta", "music-driven", "quirky", "bullet-hell-elements"],
+    "subreddit": "Undertale",
+    "steamUrl": "https://store.steampowered.com/app/391540/"
+  },
+  {
+    "name": "Terraria",
+    "genres": ["sandbox", "action", "adventure"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["crafting", "exploration", "boss-fights", "building", "replayable", "survival", "multiplayer-co-op", "progression"],
+    "subreddit": "Terraria",
+    "steamUrl": "https://store.steampowered.com/app/105600/"
+  },
+  {
+    "name": "Cuphead",
+    "genres": ["action", "platformer", "shooter"],
+    "perspective": "2d-side",
+    "visualStyle": "hand-drawn",
+    "tags": ["challenging", "boss-rush", "1930s-cartoon", "precise", "run-and-gun", "artistic", "co-op"],
+    "subreddit": "Cuphead",
+    "steamUrl": "https://store.steampowered.com/app/268910/"
+  },
+  {
+    "name": "Shovel Knight",
+    "genres": ["platformer", "action", "rpg"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["retro", "challenging", "narrative", "boss-fights", "tight-controls", "knightly", "collectibles"],
+    "subreddit": "ShovelKnight",
+    "steamUrl": "https://store.steampowered.com/app/250760/"
+  },
+  {
+    "name": "Ori and the Blind Forest",
+    "genres": ["platformer", "metroidvania"],
+    "perspective": "2d-side",
+    "visualStyle": "hand-drawn",
+    "tags": ["atmospheric", "emotional", "beautiful", "precision-platforming", "exploration", "story-driven", "nature"],
+    "subreddit": "OriAndTheBlindForest",
+    "steamUrl": "https://store.steampowered.com/app/261570/"
+  },
+  {
+    "name": "Hyper Light Drifter",
+    "genres": ["action", "rpg", "adventure"],
+    "perspective": "2d-top",
+    "visualStyle": "pixel",
+    "tags": ["atmospheric", "challenging", "wordless-narrative", "sci-fi-fantasy", "fast-paced", "dark", "exploration"],
+    "subreddit": "HyperLightDrifter",
+    "steamUrl": "https://store.steampowered.com/app/257850/"
+  },
+  {
+    "name": "Enter the Gungeon",
+    "genres": ["roguelike", "shooter", "action"],
+    "perspective": "2d-top",
+    "visualStyle": "pixel",
+    "tags": ["bullet-hell", "challenging", "replayable", "gun-synergies", "humor", "co-op", "permadeath"],
+    "subreddit": "EnterTheGungeon",
+    "steamUrl": "https://store.steampowered.com/app/311690/"
+  },
+  {
+    "name": "The Binding of Isaac: Rebirth",
+    "genres": ["roguelike", "shooter", "action"],
+    "perspective": "2d-top",
+    "visualStyle": "cartoon",
+    "tags": ["dark", "challenging", "item-synergies", "replayable", "permadeath", "horror-elements", "religious-imagery"],
+    "subreddit": "bindingofisaac",
+    "steamUrl": "https://store.steampowered.com/app/250900/"
+  },
+  {
+    "name": "Risk of Rain 2",
+    "genres": ["roguelike", "action", "shooter"],
+    "perspective": "3d-third",
+    "visualStyle": "cartoon",
+    "tags": ["co-op", "replayable", "build-variety", "challenging", "sci-fi", "item-synergies", "scaling-difficulty"],
+    "subreddit": "riskofrain",
+    "steamUrl": "https://store.steampowered.com/app/632360/"
+  },
+  {
+    "name": "Slay the Spire",
+    "genres": ["roguelike", "strategy"],
+    "perspective": "2d-side",
+    "visualStyle": "cartoon",
+    "tags": ["deck-building", "turn-based", "replayable", "strategic", "challenging", "card-synergies", "permadeath"],
+    "subreddit": "slaythespire",
+    "steamUrl": "https://store.steampowered.com/app/646570/"
+  },
+  {
+    "name": "Vampire Survivors",
+    "genres": ["roguelike", "action", "survival"],
+    "perspective": "2d-top",
+    "visualStyle": "pixel",
+    "tags": ["auto-battler", "casual-friendly", "build-variety", "replayable", "addictive", "low-effort-high-reward", "unlockables"],
+    "subreddit": "VampireSurvivors",
+    "steamUrl": "https://store.steampowered.com/app/1794680/"
+  },
+  {
+    "name": "Factorio",
+    "genres": ["strategy", "simulation", "sandbox"],
+    "perspective": "2d-top",
+    "visualStyle": "vector",
+    "tags": ["automation", "factory-building", "optimization", "deep-systems", "multiplayer-co-op", "sci-fi", "addictive", "complex"],
+    "subreddit": "factorio",
+    "steamUrl": "https://store.steampowered.com/app/427520/"
+  },
+  {
+    "name": "Deep Rock Galactic",
+    "genres": ["action", "shooter", "survival"],
+    "perspective": "3d-first",
+    "visualStyle": "cartoon",
+    "tags": ["co-op", "mining", "procedural", "teamwork", "dwarves", "humor", "progression", "friendly-community"],
+    "subreddit": "DeepRockGalactic",
+    "steamUrl": "https://store.steampowered.com/app/548430/"
+  },
+  {
+    "name": "Valheim",
+    "genres": ["survival", "sandbox", "action"],
+    "perspective": "3d-third",
+    "visualStyle": "low-poly",
+    "tags": ["viking", "crafting", "exploration", "boss-fights", "co-op", "base-building", "atmospheric", "progression"],
+    "subreddit": "valheim",
+    "steamUrl": "https://store.steampowered.com/app/892970/"
+  },
+  {
+    "name": "Phasmophobia",
+    "genres": ["horror", "survival"],
+    "perspective": "3d-first",
+    "visualStyle": "realistic",
+    "tags": ["co-op", "ghost-hunting", "atmospheric", "scary", "investigation", "multiplayer", "tension"],
+    "subreddit": "PhasmophobiaGame",
+    "steamUrl": "https://store.steampowered.com/app/739630/"
+  },
+  {
+    "name": "Darkest Dungeon",
+    "genres": ["rpg", "roguelike", "strategy"],
+    "perspective": "2d-side",
+    "visualStyle": "hand-drawn",
+    "tags": ["dark", "challenging", "stress-mechanic", "gothic", "party-management", "permadeath", "narrated", "grim"],
+    "subreddit": "darkestdungeon",
+    "steamUrl": "https://store.steampowered.com/app/262060/"
+  },
+  {
+    "name": "SOMA",
+    "genres": ["horror", "adventure", "narrative"],
+    "perspective": "3d-first",
+    "visualStyle": "realistic",
+    "tags": ["philosophical", "sci-fi", "atmospheric", "story-driven", "underwater", "existential", "horror-elements"],
+    "subreddit": "soma",
+    "steamUrl": "https://store.steampowered.com/app/282140/"
+  },
+  {
+    "name": "Limbo",
+    "genres": ["platformer", "puzzle", "adventure"],
+    "perspective": "2d-side",
+    "visualStyle": "minimalist",
+    "tags": ["dark", "atmospheric", "puzzle-platformer", "short", "monochromatic", "eerie", "wordless-narrative"],
+    "subreddit": "limbo",
+    "steamUrl": "https://store.steampowered.com/app/48000/"
+  },
+  {
+    "name": "Inside",
+    "genres": ["platformer", "puzzle", "adventure"],
+    "perspective": "2d-side",
+    "visualStyle": "minimalist",
+    "tags": ["dark", "atmospheric", "puzzle-platformer", "short", "dystopian", "wordless-narrative", "cinematic"],
+    "subreddit": "insidegame",
+    "steamUrl": "https://store.steampowered.com/app/304430/"
+  },
+  {
+    "name": "Baba Is You",
+    "genres": ["puzzle"],
+    "perspective": "2d-top",
+    "visualStyle": "minimalist",
+    "tags": ["rule-bending", "logic", "creative", "challenging", "unique-mechanic", "meta", "wordplay"],
+    "subreddit": "BabaIsYou",
+    "steamUrl": "https://store.steampowered.com/app/736260/"
+  },
+  {
+    "name": "Tunic",
+    "genres": ["adventure", "action", "puzzle"],
+    "perspective": "isometric",
+    "visualStyle": "low-poly",
+    "tags": ["mystery", "exploration", "zelda-like", "challenging", "cute", "secrets", "discovery", "boss-fights"],
+    "subreddit": "TunicGame",
+    "steamUrl": "https://store.steampowered.com/app/553420/"
+  },
+  {
+    "name": "Sifu",
+    "genres": ["action", "fighting"],
+    "perspective": "3d-third",
+    "visualStyle": "cartoon",
+    "tags": ["martial-arts", "aging-mechanic", "challenging", "precise", "kung-fu", "mastery", "short-runs"],
+    "subreddit": "SifuGame",
+    "steamUrl": "https://store.steampowered.com/app/1468810/"
+  },
+  {
+    "name": "Dave the Diver",
+    "genres": ["adventure", "simulation", "rpg"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["cozy", "fishing", "restaurant-management", "exploration", "humor", "casual-friendly", "narrative"],
+    "subreddit": "davethedinver",
+    "steamUrl": "https://store.steampowered.com/app/1868140/"
+  },
+  {
+    "name": "Dredge",
+    "genres": ["adventure", "horror", "simulation"],
+    "perspective": "3d-third",
+    "visualStyle": "low-poly",
+    "tags": ["fishing", "atmospheric", "lovecraftian", "cozy-dark", "narrative", "exploration", "eerie"],
+    "subreddit": "dredgegame",
+    "steamUrl": "https://store.steampowered.com/app/1562430/"
+  },
+  {
+    "name": "Cult of the Lamb",
+    "genres": ["roguelike", "simulation", "action"],
+    "perspective": "2d-top",
+    "visualStyle": "cartoon",
+    "tags": ["cult-management", "base-building", "cute-dark", "replayable", "ritual", "humor", "progression"],
+    "subreddit": "CultOfTheLamb",
+    "steamUrl": "https://store.steampowered.com/app/1313140/"
+  },
+  {
+    "name": "Loop Hero",
+    "genres": ["roguelike", "strategy", "simulation"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["idle-like", "deck-building", "dark-fantasy", "loop-mechanic", "strategic", "replayable", "quirky"],
+    "subreddit": "LoopHero",
+    "steamUrl": "https://store.steampowered.com/app/1282730/"
+  },
+  {
+    "name": "Noita",
+    "genres": ["roguelike", "action", "sandbox"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["physics-based", "wand-building", "permadeath", "deeply-complex", "exploration", "secret-hunting", "emergent"],
+    "subreddit": "Noita",
+    "steamUrl": "https://store.steampowered.com/app/881100/"
+  },
+  {
+    "name": "RimWorld",
+    "genres": ["simulation", "strategy", "survival"],
+    "perspective": "isometric",
+    "visualStyle": "cartoon",
+    "tags": ["colony-sim", "storytelling", "emergent", "dark-humor", "complex-systems", "moddable", "narrative"],
+    "subreddit": "RimWorld",
+    "steamUrl": "https://store.steampowered.com/app/294100/"
+  },
+  {
+    "name": "Dwarf Fortress",
+    "genres": ["simulation", "strategy", "sandbox"],
+    "perspective": "2d-top",
+    "visualStyle": "pixel",
+    "tags": ["complex", "colony-sim", "emergent", "deep-systems", "moddable", "challenging", "ascii-art"],
+    "subreddit": "dwarffortress",
+    "steamUrl": "https://store.steampowered.com/app/975370/"
+  },
+  {
+    "name": "Subnautica",
+    "genres": ["survival", "adventure", "sandbox"],
+    "perspective": "3d-first",
+    "visualStyle": "realistic",
+    "tags": ["underwater", "exploration", "crafting", "atmospheric", "alien-world", "base-building", "narrative"],
+    "subreddit": "subnautica",
+    "steamUrl": "https://store.steampowered.com/app/264710/"
+  },
+  {
+    "name": "The Long Dark",
+    "genres": ["survival", "simulation"],
+    "perspective": "3d-first",
+    "visualStyle": "hand-drawn",
+    "tags": ["wilderness", "atmospheric", "harsh", "realistic-survival", "narrative", "isolation", "slow-paced"],
+    "subreddit": "thelongdark",
+    "steamUrl": "https://store.steampowered.com/app/305620/"
+  },
+  {
+    "name": "Oxygen Not Included",
+    "genres": ["simulation", "strategy", "survival"],
+    "perspective": "2d-side",
+    "visualStyle": "cartoon",
+    "tags": ["colony-sim", "complex-systems", "sci-fi", "management", "optimization", "challenging", "funny"],
+    "subreddit": "Oxygennotincluded",
+    "steamUrl": "https://store.steampowered.com/app/457140/"
+  },
+  {
+    "name": "Spiritfarer",
+    "genres": ["simulation", "adventure", "narrative"],
+    "perspective": "2d-side",
+    "visualStyle": "hand-drawn",
+    "tags": ["cozy", "emotional", "management", "death-positive", "story-driven", "crafting", "relaxing"],
+    "subreddit": "Spiritfarer",
+    "steamUrl": "https://store.steampowered.com/app/972660/"
+  },
+  {
+    "name": "A Short Hike",
+    "genres": ["adventure", "simulation"],
+    "perspective": "3d-third",
+    "visualStyle": "low-poly",
+    "tags": ["cozy", "exploration", "short", "relaxing", "pixel-art-3d", "charming", "wholesome"],
+    "subreddit": "AShortHike",
+    "steamUrl": "https://store.steampowered.com/app/1055540/"
+  },
+  {
+    "name": "Chicory: A Colorful Tale",
+    "genres": ["adventure", "puzzle", "narrative"],
+    "perspective": "2d-top",
+    "visualStyle": "hand-drawn",
+    "tags": ["cozy", "painting-mechanic", "emotional", "wholesome", "exploration", "mental-health", "charming"],
+    "subreddit": "Chicory",
+    "steamUrl": "https://store.steampowered.com/app/1123450/"
+  },
+  {
+    "name": "Hades II",
+    "genres": ["roguelike", "action", "rpg"],
+    "perspective": "isometric",
+    "visualStyle": "hand-drawn",
+    "tags": ["narrative", "replayable", "fast-paced", "mythology", "voice-acted", "build-variety", "early-access"],
+    "subreddit": "HadesTheGame",
+    "steamUrl": "https://store.steampowered.com/app/1145350/"
+  },
+  {
+    "name": "Katana ZERO",
+    "genres": ["action", "platformer", "narrative"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["neo-noir", "fast-paced", "story-driven", "one-hit-kill", "stylish", "mature", "rewind-mechanic"],
+    "subreddit": "KatanaZero",
+    "steamUrl": "https://store.steampowered.com/app/460950/"
+  },
+  {
+    "name": "GRIS",
+    "genres": ["platformer", "adventure"],
+    "perspective": "2d-side",
+    "visualStyle": "hand-drawn",
+    "tags": ["emotional", "watercolor", "wordless-narrative", "atmospheric", "beautiful", "short", "art-focused"],
+    "subreddit": "Gris",
+    "steamUrl": "https://store.steampowered.com/app/683320/"
+  },
+  {
+    "name": "Bastion",
+    "genres": ["action", "rpg"],
+    "perspective": "isometric",
+    "visualStyle": "hand-drawn",
+    "tags": ["narrated", "atmospheric", "build-variety", "fantasy", "stylish", "music-driven", "story-driven"],
+    "subreddit": "Bastion",
+    "steamUrl": "https://store.steampowered.com/app/107100/"
+  },
+  {
+    "name": "Blasphemous",
+    "genres": ["metroidvania", "action", "platformer"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["dark", "gothic", "religious-imagery", "challenging", "lore-rich", "spanish-folklore", "atmospheric", "boss-fights"],
+    "subreddit": "Blasphemous",
+    "steamUrl": "https://store.steampowered.com/app/774361/"
+  },
+  {
+    "name": "Monster Sanctuary",
+    "genres": ["metroidvania", "rpg", "strategy"],
+    "perspective": "2d-side",
+    "visualStyle": "pixel",
+    "tags": ["monster-collecting", "turn-based", "exploration", "team-building", "cozy", "charming", "progression"],
+    "subreddit": "MonsterSanctuary",
+    "steamUrl": "https://store.steampowered.com/app/814370/"
+  },
+  {
+    "name": "Hades (Early Access)",
+    "genres": ["roguelike", "action"],
+    "perspective": "isometric",
+    "visualStyle": "hand-drawn",
+    "tags": ["replayable", "challenging", "build-variety", "mythology"],
+    "subreddit": "HadesTheGame",
+    "steamUrl": "https://store.steampowered.com/app/1145360/"
+  }
+]
